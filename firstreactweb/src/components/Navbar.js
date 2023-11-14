@@ -33,8 +33,8 @@ const Navbar = () => {
             ></path>{" "}
           </svg>
         </a>
-        <div>
-          <ul id="Navbar">
+        <div >
+          <ul id={!menuOpen ? "Navbar":"DropNavbar"}>
             <li>
               <a href="index.html">Home</a>
             </li>
