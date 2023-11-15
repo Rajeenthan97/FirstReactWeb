@@ -36,7 +36,7 @@ const Navbar = () => {
         <div >
           <ul id={!menuOpen ? "Navbar":"DropNavbar"}>
             <li>
-              <a href="index.html">Home</a>
+              <a href="/home">Home</a>
             </li>
             <li>
               <a href="index.html">Shop</a>
