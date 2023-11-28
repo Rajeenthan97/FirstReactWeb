@@ -1,5 +1,7 @@
 import React from "react";
 import "./Services.css";
+import { AiFillCar } from "react-icons/ai";
+import { FaRegHandshake } from "react-icons/fa";
 
 const Services = () => {
   return (
@@ -12,6 +14,8 @@ const Services = () => {
         </p>
       </div>
       <div className="iconContainer">
+      <AiFillCar className="servicesIcon"/>
+      <FaRegHandshake />
 
       </div>
     </div>

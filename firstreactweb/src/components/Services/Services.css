@@ -1,18 +1,25 @@
-.mainServiceContainer{
-    background-color: rgb(255, 255, 255);
-    height: 523px;
+.mainServiceContainer {
+  background-color: rgb(255, 255, 255);
+  height: 523px;
 }
 
-.desContainer{
-    /* background-color: rgb(52, 129, 196); */
-    text-align: left;
+.desContainer {
+  /* background-color: rgb(52, 129, 196); */
+  text-align: left;
 }
 
-.desHeading{
-    font-size: 48px;
-    font-weight: 700; 
+.desHeading {
+  font-size: 48px;
+  font-weight: 700;
 }
 
-.iconContainer{
-    
+.servicesIcon {
+  color: #195776;
+  width: 60px;
+  height: 60px;
+  background-color: #F7F7F7;
+  padding: 30px;
+  border-radius: 100%;
+}
+.iconContainer {
 }
