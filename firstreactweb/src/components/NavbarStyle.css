@@ -2,7 +2,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(49, 47, 47);
+    background-color:#192655;
     padding: 20px 80px;
 }
 
@@ -10,6 +10,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-right: 100px;
     }
 
 #Navbar li { 
@@ -25,14 +26,13 @@ nav{
     color: #fff;
     transition: 0.3s ease-out;
     } 
-
-    
+  
 #Navbar li a:hover,
 #Navbar li a.active
 {
 color: #f7b424;
     } 
-  
+
 #Navbar li a:hover::after{
 content: "";
 width: 30%;
@@ -77,7 +77,6 @@ cursor: pointer;
 }
 #DropNavbar{
     display:none;
-
 }
 
 }

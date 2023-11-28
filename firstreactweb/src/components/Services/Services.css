@@ -1,0 +1,18 @@
+.mainServiceContainer{
+    background-color: rgb(255, 255, 255);
+    height: 523px;
+}
+
+.desContainer{
+    /* background-color: rgb(52, 129, 196); */
+    text-align: left;
+}
+
+.desHeading{
+    font-size: 48px;
+    font-weight: 700; 
+}
+
+.iconContainer{
+    
+}

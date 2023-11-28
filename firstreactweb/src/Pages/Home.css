@@ -1,0 +1,65 @@
+.WelcomeContainer {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.RowContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.SubContainer {
+  width: 50%;
+  padding-left: 60px;
+}
+
+.welcomeImageContainer {
+  width: 50%;
+}
+
+.welcomeImage {
+  width: 487px;
+  height: 487px;
+}
+
+.welcomeHeading {
+  font-weight: 700;
+  font-size: 48px;
+  margin-top: -55px;
+  text-align: left;
+}
+
+.welcomeDes {
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: -20px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.46);
+}
+.ObjectiveMainContainer {
+  background-color: #ececec;
+  height: 523px;
+  display: flex;
+}
+.ObjectiveImage {
+  width: 552px;
+  height: 379px;
+  padding: 88px 100px;
+  display: flex;
+}
+
+.ObjectiveContainer{
+    text-align: left;
+    padding: 95px 0 0px 0px;
+}
+.objectiveList{
+    font-size: 24px;
+}
+
+.ObjectiveHeading{
+    font-weight: 600;
+    font-size:48px;
+    margin-bottom: 2px;
+
+}
