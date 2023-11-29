@@ -2,7 +2,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color:#192655;
+    background-color:#195776;;
     padding: 20px 80px;
 }
 
@@ -10,7 +10,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 100px;
+    padding-left: 533px;
     }
 
 #Navbar li { 
@@ -30,14 +30,15 @@ nav{
 #Navbar li a:hover,
 #Navbar li a.active
 {
-color: #f7b424;
+color: #ffffff;
+
     } 
 
 #Navbar li a:hover::after{
 content: "";
 width: 30%;
 height: 2px;
-background: #f7b424;
+background: rgb(255, 255, 255);
 position: absolute;
 bottom: -4px;
 left: 20px;

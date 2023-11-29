@@ -1,25 +1,65 @@
 .mainServiceContainer {
   background-color: rgb(255, 255, 255);
   height: 523px;
+  display: flex;
+  padding-left:65px;
 }
 
 .desContainer {
-  /* background-color: rgb(52, 129, 196); */
   text-align: left;
+  padding-left:20px;
 }
 
 .desHeading {
   font-size: 48px;
   font-weight: 700;
 }
+.servicesDes{
+  font-size: 24px;
+  font-weight: 400;
+  color: #7A7A7A;
+}
 
 .servicesIcon {
   color: #195776;
   width: 60px;
   height: 60px;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   padding: 30px;
   border-radius: 100%;
 }
 .iconContainer {
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  padding-left: 89px;
+}
+
+.subIconContainer {
+  padding: 40px 50px 50px 50px;
+  background-color: rgb(255, 255, 255);
+  margin-right: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.iconBackgroundContainer {
+  background-color: #195776;
+  width: 500px;
+  height: 176px;
+  padding-left: 300px;
+  border-radius: 10px;
+}
+
+.mainIconContainer {
+  display: flex;
+  margin-top: -140px;
+  padding-left: 125px;
+}
+
+.iconText{
+  font-weight: 700;
+  font-size:20px;
+  color: #7A7A7A;
+  padding-top:35px;
 }

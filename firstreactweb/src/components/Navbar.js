@@ -1,12 +1,16 @@
 import React, { useState } from "react";
 import "./NavbarStyle.css";
+import logo from "../Images/logo.png";
+
 
 const Navbar = () => {
   const [menuOpen,setMenuOpen] = useState(false)
   return (
     <div>
       <nav>
-        <a href="index.html">
+      <img className="logo" src={logo} alt="logo" />
+        
+        {/* <a href="index.html">
           <svg
             id="logo-14"
             width="73"
@@ -32,23 +36,23 @@ const Navbar = () => {
               fill="#5D2C02"
             ></path>{" "}
           </svg>
-        </a>
+        </a> */}
         <div >
           <ul id={!menuOpen ? "Navbar":"DropNavbar"}>
             <li>
               <a href="/home">Home</a>
             </li>
             <li>
-              <a href="index.html">Shop</a>
-            </li>
-            <li>
-              <a href="index.html">Blog</a>
-            </li>
-            <li>
               <a href="index.html">About</a>
             </li>
             <li>
-              <a href="index.html">Contact Us</a>
+              <a href="index.html">Service</a>
+            </li>
+            <li>
+              <a href="index.html">Events</a>
+            </li>
+            <li>
+              <a href="index.html">Contact</a>
             </li>
           </ul>
         </div>

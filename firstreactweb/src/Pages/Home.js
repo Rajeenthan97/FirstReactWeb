@@ -4,12 +4,17 @@ import welcomeImage from "../Images/welcomeImage.png";
 import ObjectiveImage from "../Images/ObjectiveImage.png";
 import CustomButton from "../components/CustomButton/CustomButton";
 import Services from "../components/Services/Services";
+import Navbar from "../components/Navbar";
+import Events from "../components/Events/Events";
+import ContactUs from "../components/ContactUs/ContactUs";
 
 const Home = () => {
   console.log("home-----------------");
 
   return (
+   
     <div className="WelcomeContainer">
+       <Navbar/>
       <div className="RowContainer">
         <div className="SubContainer">
           <p className=" welcomeHeading"> Welcome to our</p>
@@ -49,6 +54,8 @@ const Home = () => {
         </div>
       </div>
       <Services/>
+      <Events/>
+      <ContactUs/>
     </div>
   );
 };
