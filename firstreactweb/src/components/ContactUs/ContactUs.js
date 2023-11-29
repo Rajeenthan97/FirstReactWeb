@@ -1,9 +1,18 @@
-import React from 'react'
+import React from "react";
+import "./ContactUs.css";
 
 const ContactUs = () => {
   return (
-    <div>ContactUs</div>
-  )
-}
+    <div className="mainContactContainer">
+      <div className="contactDesContainer">
+        <p className="contactDesHeading"> Fill the form to Contact us.</p>
+        <p className="contactDes">Connect with us effortlessly</p>
+      </div>
+      <div className="inputBoxContainer">
 
-export default ContactUs
+      </div>
+    </div>
+  );
+};
+
+export default ContactUs;
