@@ -1,4 +1,118 @@
-.mainContactContainer{
-    background-color:rgb(255, 255, 255);
-    height:600px;
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContactContainer {
+  background-color: rgb(255, 255, 255);
+  height: 680px;
+  display: flex;
+}
+.mainContactContainer {
+  display: flex;
+}
+
+.contactDesContainer {
+  width: 450px;
+  text-align: left;
+  padding-left: 70px;
+  padding-top: 50px;
+}
+
+.contactIcon {
+  width: 22px;
+  height: 22.5px;
+}
+
+.inputBoxContainer {
+  padding-left: 20px;
+}
+
+.contactDesHeading {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.contactDes {
+  font-size: 24px;
+  font-weight: 400;
+  color: #7a7a7a;
+  padding-bottom: 40px;
+  margin-top: -20px;
+}
+.iconDesContainer {
+  display: flex;
+  padding-bottom: 17px;
+}
+
+.iconDes {
+  padding-left: 23px;
+  margin-top: -6px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #7a7a7a;
+}
+
+.inputBoxContainer {
+  background-color: rgb(255, 255, 255);
+  padding-left: 70px;
+  padding-top: 80px;
+}
+
+.subInputBoxContainer {
+  background-color: rgb(255, 255, 255);
+  width: 570px;
+  height: 650px;
+  box-shadow: 0 0 8px #195776;
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+.contactFooterContainer {
+  background-color: #195776;
+  height: 400px;
+  padding-top: 220px;
+  display: flex;
+}
+
+.subContactFooterContainer {
+  display: flex;
+}
+
+.footerHeading {
+  color: white;
+  font-weight:600;
+  font-size: 20px;
+  text-align:left;
+}
+
+.desText {
+  font-weight:400;
+  color: white;
+  padding-left: 1px;
+  font-size: 15px;
+}
+
+.logoContainer{
+    padding-left:120px;
+    padding-top: 32px;
+}
+
+.socialMediaContainer{
+    padding-left:140px;
+}
+
+.linksContainer{
+    padding-left:140px;
+    text-align: left;
+}
+
+.contactsContainer{
+    padding-left:140px;
+    text-align:left;
+}
+
+.copyrightContainer{
+
 }
