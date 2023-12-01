@@ -16,3 +16,7 @@
     align-items: center;
 }
 
+.submit:hover {
+    background-color: #195776;
+    font-size:21px;
+}

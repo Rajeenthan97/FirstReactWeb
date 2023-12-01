@@ -7,6 +7,7 @@ import Services from "../components/Services/Services";
 import Navbar from "../components/Navbar";
 import Events from "../components/Events/Events";
 import ContactUs from "../components/ContactUs/ContactUs";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   console.log("home-----------------");
@@ -56,6 +57,7 @@ const Home = () => {
       <Services/>
       <Events/>
       <ContactUs/>
+      <Footer/>
     </div>
   );
 };

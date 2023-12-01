@@ -1,0 +1,49 @@
+.contactFooterContainer {
+    background-color: #195776;
+    height: 350px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .subContactFooterContainer {
+    display: flex;
+  }
+  
+  .footerHeading {
+    color: white;
+    font-weight:600;
+    font-size: 20px;
+    text-align:left;
+  }
+  
+  .desText {
+    font-weight:400;
+    color: white;
+    padding-left: 1px;
+    font-size: 15px;
+  }
+  
+  .logoContainer{
+      padding-left:80px;
+      padding-top: 32px;
+  }
+  
+  .socialMediaContainer{
+      padding-left:160px;
+  }
+  
+  .linksContainer{
+      padding-left:160px;
+      text-align: left;
+  }
+  
+  .contactsContainer{
+      padding-left:160px;
+      text-align:left;
+  }
+  
+  .copyrightContainer{
+    padding-top: 80px;
+  }
+  
